@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A25EC12AA8C094008B388B /* CarDetailPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A25EC02AA8C094008B388B /* CarDetailPage.m */; };
+		02A25EC42AA8C83A008B388B /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A25EC32AA8C83A008B388B /* APIClient.m */; };
+		02A25EC82AA8D4F4008B388B /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A25EC72AA8D4F4008B388B /* Car.m */; };
+		02B96F9D2AA6F9AF0003C7D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96F9C2AA6F9AF0003C7D2 /* AppDelegate.m */; };
+		02B96FA02AA6F9AF0003C7D2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96F9F2AA6F9AF0003C7D2 /* SceneDelegate.m */; };
+		02B96FA32AA6F9AF0003C7D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96FA22AA6F9AF0003C7D2 /* ViewController.m */; };
+		02B96FA62AA6F9AF0003C7D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B96FA42AA6F9AF0003C7D2 /* Main.storyboard */; };
+		02B96FA82AA6F9B10003C7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B96FA72AA6F9B10003C7D2 /* Assets.xcassets */; };
+		02B96FAB2AA6F9B10003C7D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B96FA92AA6F9B10003C7D2 /* LaunchScreen.storyboard */; };
+		02B96FAE2AA6F9B10003C7D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96FAD2AA6F9B10003C7D2 /* main.m */; };
+		02B96FC22AA6F9B10003C7D2 /* TestCarDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96FC12AA6F9B10003C7D2 /* TestCarDetails.m */; };
+		02B96FD62AA740500003C7D2 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96FD52AA740500003C7D2 /* Page.m */; };
+		02B96FE02AA7453B0003C7D2 /* XCUIElement+Shortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96FDF2AA7453B0003C7D2 /* XCUIElement+Shortcut.m */; };
+		02B96FE42AA747840003C7D2 /* NavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96FE32AA747840003C7D2 /* NavBar.m */; };
+		02B96FE72AA74E020003C7D2 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96FE62AA74E020003C7D2 /* HomePage.m */; };
+		02B96FEA2AA750120003C7D2 /* PagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96FE92AA750120003C7D2 /* PagesManager.m */; };
+		02B96FED2AA750D60003C7D2 /* BaseCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96FEC2AA750D60003C7D2 /* BaseCase.m */; };
+		02B96FF02AA753010003C7D2 /* FindCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B96FEF2AA753010003C7D2 /* FindCar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02B96FBE2AA6F9B10003C7D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B96F902AA6F9AF0003C7D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B96F972AA6F9AF0003C7D2;
+			remoteInfo = TestInvygoApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A25EBF2AA8C094008B388B /* CarDetailPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarDetailPage.h; sourceTree = "<group>"; };
+		02A25EC02AA8C094008B388B /* CarDetailPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarDetailPage.m; sourceTree = "<group>"; };
+		02A25EC22AA8C83A008B388B /* APIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		02A25EC32AA8C83A008B388B /* APIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		02A25EC62AA8D4F4008B388B /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		02A25EC72AA8D4F4008B388B /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		02B96F982AA6F9AF0003C7D2 /* TestInvygoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestInvygoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B96F9B2AA6F9AF0003C7D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02B96F9C2AA6F9AF0003C7D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02B96F9E2AA6F9AF0003C7D2 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		02B96F9F2AA6F9AF0003C7D2 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		02B96FA12AA6F9AF0003C7D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02B96FA22AA6F9AF0003C7D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02B96FA52AA6F9AF0003C7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02B96FA72AA6F9B10003C7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02B96FAA2AA6F9B10003C7D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02B96FAC2AA6F9B10003C7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B96FAD2AA6F9B10003C7D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02B96FBD2AA6F9B10003C7D2 /* TestInvygoApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestInvygoApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02B96FC12AA6F9B10003C7D2 /* TestCarDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCarDetails.m; sourceTree = "<group>"; };
+		02B96FD42AA740500003C7D2 /* Page.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		02B96FD52AA740500003C7D2 /* Page.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		02B96FD82AA7412E0003C7D2 /* PredicateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PredicateHelper.h; sourceTree = "<group>"; };
+		02B96FDE2AA7453B0003C7D2 /* XCUIElement+Shortcut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCUIElement+Shortcut.h"; sourceTree = "<group>"; };
+		02B96FDF2AA7453B0003C7D2 /* XCUIElement+Shortcut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCUIElement+Shortcut.m"; sourceTree = "<group>"; };
+		02B96FE12AA745910003C7D2 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		02B96FE22AA747840003C7D2 /* NavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavBar.h; sourceTree = "<group>"; };
+		02B96FE32AA747840003C7D2 /* NavBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavBar.m; sourceTree = "<group>"; };
+		02B96FE52AA74E020003C7D2 /* HomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
+		02B96FE62AA74E020003C7D2 /* HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
+		02B96FE82AA750120003C7D2 /* PagesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagesManager.h; sourceTree = "<group>"; };
+		02B96FE92AA750120003C7D2 /* PagesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagesManager.m; sourceTree = "<group>"; };
+		02B96FEB2AA750D60003C7D2 /* BaseCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCase.h; sourceTree = "<group>"; };
+		02B96FEC2AA750D60003C7D2 /* BaseCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCase.m; sourceTree = "<group>"; };
+		02B96FEE2AA753010003C7D2 /* FindCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindCar.h; sourceTree = "<group>"; };
+		02B96FEF2AA753010003C7D2 /* FindCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindCar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02B96F952AA6F9AF0003C7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B96FBA2AA6F9B10003C7D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A25EC52AA8D4E4008B388B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02A25EC62AA8D4F4008B388B /* Car.h */,
+				02A25EC72AA8D4F4008B388B /* Car.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		02B96F8F2AA6F9AF0003C7D2 = {
+			isa = PBXGroup;
+			children = (
+				02B96F9A2AA6F9AF0003C7D2 /* TestInvygoApplication */,
+				02B96FC02AA6F9B10003C7D2 /* TestInvygoApplicationUITests */,
+				02B96F992AA6F9AF0003C7D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02B96F992AA6F9AF0003C7D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02B96F982AA6F9AF0003C7D2 /* TestInvygoApplication.app */,
+				02B96FBD2AA6F9B10003C7D2 /* TestInvygoApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02B96F9A2AA6F9AF0003C7D2 /* TestInvygoApplication */ = {
+			isa = PBXGroup;
+			children = (
+				02B96F9B2AA6F9AF0003C7D2 /* AppDelegate.h */,
+				02B96F9C2AA6F9AF0003C7D2 /* AppDelegate.m */,
+				02B96F9E2AA6F9AF0003C7D2 /* SceneDelegate.h */,
+				02B96F9F2AA6F9AF0003C7D2 /* SceneDelegate.m */,
+				02B96FA12AA6F9AF0003C7D2 /* ViewController.h */,
+				02B96FA22AA6F9AF0003C7D2 /* ViewController.m */,
+				02B96FA42AA6F9AF0003C7D2 /* Main.storyboard */,
+				02B96FA72AA6F9B10003C7D2 /* Assets.xcassets */,
+				02B96FA92AA6F9B10003C7D2 /* LaunchScreen.storyboard */,
+				02B96FAC2AA6F9B10003C7D2 /* Info.plist */,
+				02B96FAD2AA6F9B10003C7D2 /* main.m */,
+			);
+			path = TestInvygoApplication;
+			sourceTree = "<group>";
+		};
+		02B96FC02AA6F9B10003C7D2 /* TestInvygoApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02B96FD32AA6FB180003C7D2 /* Utils */,
+				02B96FD22AA6FB0B0003C7D2 /* TestCases */,
+				02B96FD12AA6FB020003C7D2 /* Pages */,
+				02B96FD02AA6FAF70003C7D2 /* DataProvider */,
+			);
+			path = TestInvygoApplicationUITests;
+			sourceTree = "<group>";
+		};
+		02B96FD02AA6FAF70003C7D2 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				02A25EC22AA8C83A008B388B /* APIClient.h */,
+				02A25EC32AA8C83A008B388B /* APIClient.m */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		02B96FD12AA6FB020003C7D2 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				02B96FDD2AA741EA0003C7D2 /* CarDetail */,
+				02B96FDC2AA741E10003C7D2 /* FindACar */,
+				02B96FDB2AA741BE0003C7D2 /* HomePage */,
+				02B96FDA2AA741B30003C7D2 /* NavBar */,
+				02B96FD42AA740500003C7D2 /* Page.h */,
+				02B96FD52AA740500003C7D2 /* Page.m */,
+				02B96FE82AA750120003C7D2 /* PagesManager.h */,
+				02B96FE92AA750120003C7D2 /* PagesManager.m */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		02B96FD22AA6FB0B0003C7D2 /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				02B96FD92AA7418A0003C7D2 /* CarDetails */,
+				02B96FEB2AA750D60003C7D2 /* BaseCase.h */,
+				02B96FEC2AA750D60003C7D2 /* BaseCase.m */,
+			);
+			path = TestCases;
+			sourceTree = "<group>";
+		};
+		02B96FD32AA6FB180003C7D2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				02B96FE12AA745910003C7D2 /* Constants.h */,
+				02A25EC52AA8D4E4008B388B /* Models */,
+				02B96FD82AA7412E0003C7D2 /* PredicateHelper.h */,
+				02B96FD72AA741070003C7D2 /* Framework */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		02B96FD72AA741070003C7D2 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				02B96FDE2AA7453B0003C7D2 /* XCUIElement+Shortcut.h */,
+				02B96FDF2AA7453B0003C7D2 /* XCUIElement+Shortcut.m */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		02B96FD92AA7418A0003C7D2 /* CarDetails */ = {
+			isa = PBXGroup;
+			children = (
+				02B96FC12AA6F9B10003C7D2 /* TestCarDetails.m */,
+			);
+			path = CarDetails;
+			sourceTree = "<group>";
+		};
+		02B96FDA2AA741B30003C7D2 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				02B96FE22AA747840003C7D2 /* NavBar.h */,
+				02B96FE32AA747840003C7D2 /* NavBar.m */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
+		02B96FDB2AA741BE0003C7D2 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				02B96FE52AA74E020003C7D2 /* HomePage.h */,
+				02B96FE62AA74E020003C7D2 /* HomePage.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		02B96FDC2AA741E10003C7D2 /* FindACar */ = {
+			isa = PBXGroup;
+			children = (
+				02B96FEE2AA753010003C7D2 /* FindCar.h */,
+				02B96FEF2AA753010003C7D2 /* FindCar.m */,
+			);
+			path = FindACar;
+			sourceTree = "<group>";
+		};
+		02B96FDD2AA741EA0003C7D2 /* CarDetail */ = {
+			isa = PBXGroup;
+			children = (
+				02A25EBF2AA8C094008B388B /* CarDetailPage.h */,
+				02A25EC02AA8C094008B388B /* CarDetailPage.m */,
+			);
+			path = CarDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02B96F972AA6F9AF0003C7D2 /* TestInvygoApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B96FC72AA6F9B10003C7D2 /* Build configuration list for PBXNativeTarget "TestInvygoApplication" */;
+			buildPhases = (
+				02B96F942AA6F9AF0003C7D2 /* Sources */,
+				02B96F952AA6F9AF0003C7D2 /* Frameworks */,
+				02B96F962AA6F9AF0003C7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestInvygoApplication;
+			productName = TestInvygoApplication;
+			productReference = 02B96F982AA6F9AF0003C7D2 /* TestInvygoApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02B96FBC2AA6F9B10003C7D2 /* TestInvygoApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B96FCD2AA6F9B10003C7D2 /* Build configuration list for PBXNativeTarget "TestInvygoApplicationUITests" */;
+			buildPhases = (
+				02B96FB92AA6F9B10003C7D2 /* Sources */,
+				02B96FBA2AA6F9B10003C7D2 /* Frameworks */,
+				02B96FBB2AA6F9B10003C7D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02B96FBF2AA6F9B10003C7D2 /* PBXTargetDependency */,
+			);
+			name = TestInvygoApplicationUITests;
+			productName = TestInvygoApplicationUITests;
+			productReference = 02B96FBD2AA6F9B10003C7D2 /* TestInvygoApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02B96F902AA6F9AF0003C7D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					02B96F972AA6F9AF0003C7D2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					02B96FBC2AA6F9B10003C7D2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 02B96F972AA6F9AF0003C7D2;
+					};
+				};
+			};
+			buildConfigurationList = 02B96F932AA6F9AF0003C7D2 /* Build configuration list for PBXProject "TestInvygoApplication" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02B96F8F2AA6F9AF0003C7D2;
+			productRefGroup = 02B96F992AA6F9AF0003C7D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02B96F972AA6F9AF0003C7D2 /* TestInvygoApplication */,
+				02B96FBC2AA6F9B10003C7D2 /* TestInvygoApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02B96F962AA6F9AF0003C7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B96FAB2AA6F9B10003C7D2 /* LaunchScreen.storyboard in Resources */,
+				02B96FA82AA6F9B10003C7D2 /* Assets.xcassets in Resources */,
+				02B96FA62AA6F9AF0003C7D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B96FBB2AA6F9B10003C7D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B96F942AA6F9AF0003C7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B96FA32AA6F9AF0003C7D2 /* ViewController.m in Sources */,
+				02B96F9D2AA6F9AF0003C7D2 /* AppDelegate.m in Sources */,
+				02B96FAE2AA6F9B10003C7D2 /* main.m in Sources */,
+				02B96FA02AA6F9AF0003C7D2 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02B96FB92AA6F9B10003C7D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A25EC82AA8D4F4008B388B /* Car.m in Sources */,
+				02B96FEA2AA750120003C7D2 /* PagesManager.m in Sources */,
+				02B96FED2AA750D60003C7D2 /* BaseCase.m in Sources */,
+				02B96FD62AA740500003C7D2 /* Page.m in Sources */,
+				02B96FF02AA753010003C7D2 /* FindCar.m in Sources */,
+				02B96FE42AA747840003C7D2 /* NavBar.m in Sources */,
+				02A25EC42AA8C83A008B388B /* APIClient.m in Sources */,
+				02B96FE72AA74E020003C7D2 /* HomePage.m in Sources */,
+				02A25EC12AA8C094008B388B /* CarDetailPage.m in Sources */,
+				02B96FE02AA7453B0003C7D2 /* XCUIElement+Shortcut.m in Sources */,
+				02B96FC22AA6F9B10003C7D2 /* TestCarDetails.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02B96FBF2AA6F9B10003C7D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B96F972AA6F9AF0003C7D2 /* TestInvygoApplication */;
+			targetProxy = 02B96FBE2AA6F9B10003C7D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02B96FA42AA6F9AF0003C7D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B96FA52AA6F9AF0003C7D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02B96FA92AA6F9B10003C7D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02B96FAA2AA6F9B10003C7D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02B96FC52AA6F9B10003C7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02B96FC62AA6F9B10003C7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02B96FC82AA6F9B10003C7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GZEFXULL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestInvygoApplication/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestInvygoApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02B96FC92AA6F9B10003C7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GZEFXULL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestInvygoApplication/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestInvygoApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02B96FCE2AA6F9B10003C7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GZEFXULL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestInvygoApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestInvygoApplication;
+			};
+			name = Debug;
+		};
+		02B96FCF2AA6F9B10003C7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GZEFXULL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestInvygoApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestInvygoApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02B96F932AA6F9AF0003C7D2 /* Build configuration list for PBXProject "TestInvygoApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B96FC52AA6F9B10003C7D2 /* Debug */,
+				02B96FC62AA6F9B10003C7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B96FC72AA6F9B10003C7D2 /* Build configuration list for PBXNativeTarget "TestInvygoApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B96FC82AA6F9B10003C7D2 /* Debug */,
+				02B96FC92AA6F9B10003C7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B96FCD2AA6F9B10003C7D2 /* Build configuration list for PBXNativeTarget "TestInvygoApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B96FCE2AA6F9B10003C7D2 /* Debug */,
+				02B96FCF2AA6F9B10003C7D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02B96F902AA6F9AF0003C7D2 /* Project object */;
+}
